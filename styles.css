@@ -39,7 +39,7 @@ body{
     align-items: center;
     width: 89px;
     height: 109px;
-    margin-right: auto;
+    margin-left: 109px;
 }
 
 .header-icon-login{
