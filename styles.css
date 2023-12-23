@@ -147,7 +147,7 @@ h2{
 .hero-cotainer-download {
     display: flex;
     flex-direction: row;
-    
+    margin-top: 91px;
     align-items: center;
 }
 
