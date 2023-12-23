@@ -14,6 +14,12 @@ ul{
     margin: 0;
 }
 
+h1,
+h2{
+    padding: 0;
+    margin: 0;
+}
+
    /*----HEADER----*/
 
 .header{
@@ -118,7 +124,6 @@ ul{
     left: 80px;
     top: 570px;
 
-    border: 3px solid #FFFFFF;
     transform: rotate(121deg);
 
 }
@@ -182,7 +187,7 @@ ul{
    /*----BENEFIST----*/
 
 .benefist {
-    padding: 120px 0 283px 0;
+    padding-top: 120px;
 }
 
 .container {
@@ -283,4 +288,58 @@ ul{
     font-weight: 400;
     line-height: normal;
     width: 315px;
+}
+
+   /*----SCANER----*/
+
+.scaner{
+    background-image: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 40%, rgb(0, 0, 0) 70%), url(./images/louis.jpg);
+    background-repeat: no-repeat;
+}
+
+.scaner-conteiner {
+    margin: 0 85px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scaner-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 467px;
+    gap: 50px;
+}
+
+.scaner-item {
+}
+
+.scaner-conteiner-title{
+    display: flex;
+    flex-direction: column;
+    margin: 780px auto auto 128.5px;
+}
+
+.scaner-title {
+    color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Montserrat;
+font-size: 51px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 400px;
+}
+
+.scaner-text {
+    color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* 1 */
+font-family: Noto Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 316px;
 }
