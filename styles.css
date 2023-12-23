@@ -81,7 +81,6 @@ body{
     justify-content: center;
     align-items: center;
     width: 643px;
-    height: 350px;
 }
 
 .hero-platform-title {
@@ -111,7 +110,7 @@ body{
 .hero-cotainer-download {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    
     align-items: center;
 }
 
@@ -126,6 +125,9 @@ body{
 }
 
 .hero-download-list {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
 }
 
 .hero-download-item {
