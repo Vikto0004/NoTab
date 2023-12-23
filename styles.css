@@ -9,10 +9,6 @@ body{
     justify-content: space-between;
 }
 
-.visually_hidden{
-    
-  background-image: url(./images/fon2.svg);
-}
 
    /*----HEADER----*/
 
@@ -98,14 +94,28 @@ body{
     margin: 0;
 }
 
-.hero-line{
-    width: 140px;
-    height: 4px;
+.hero-elipse{
     position: absolute;
-    top: 570px;
+    width: 125px;
+    height: 125px;
     left: 93px;
-    background-color: rgb(255, 255, 255);
-    transform: rotate(120deg);
+    top: 470px;
+
+    background: rgba(96, 92, 234, 0.5);
+    filter: blur(50px);
+
+}
+
+.hero-line{
+    position: absolute;
+    width: 139.43px;
+    height: 0px;
+    left: 80px;
+    top: 570px;
+
+    border: 3px solid #FFFFFF;
+    transform: rotate(121deg);
+
 }
 
 .hero-platform-text {
@@ -116,7 +126,6 @@ body{
     font-weight: 400;
     line-height: normal;
     margin: 130px 158px 0 105px;
-    background-image: url(../images/fon2.svg);
 }
 
 .hero-container-img {
