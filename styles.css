@@ -108,9 +108,19 @@ body{
 }
 
 .hero-cotainer-download {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-download-title {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 2; /* 200% */
 }
 
 .hero-download-list {
@@ -120,8 +130,14 @@ body{
 }
 
 .hero-download-app_store {
+    width: 163.535px;
+    height: 51.326px;
+    flex-shrink: 0;
 }
 
 .hero-download-google_pay {
+    width: 184.5px;
+    height: 51.326px;
+    flex-shrink: 0;
 }
 
