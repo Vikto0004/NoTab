@@ -94,13 +94,13 @@ body{
 }
 
 .hero-line{
-    width: 140px; /* Довжина лінії */
-    height: 4px; /* Товщина лінії */
-    background-color: rgb(255, 255, 255); /* Колір лінії */
+    width: 140px;
+    height: 4px;
     transform: rotate(120deg);
     position: absolute;
     top: 570px;
     left:93px;
+    background-color: rgb(255, 255, 255);
     background-image: url(./images/fon2.svg);
 }
 
