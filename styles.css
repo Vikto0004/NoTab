@@ -124,6 +124,7 @@ h2{
     left: 80px;
     top: 570px;
 
+    border: 2px solid #FFFFFF;
     transform: rotate(121deg);
 
 }
