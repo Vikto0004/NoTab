@@ -62,18 +62,38 @@ body{
    /*----HERO----*/
 
 .hero {
+    padding: 18px 0;
 }
 
 .hero-container {
+    margin: 0 85px;
+    padding: 0 15px;
 }
 
 .hero-container-platform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 643px;
+    height: 350px;
 }
 
 .hero-platform-title {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.09; /* 109.375% */
 }
 
 .hero-platform-text {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .hero-container-img {
