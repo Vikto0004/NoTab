@@ -80,6 +80,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 643px;
+    height: 350px;
 }
 
 .hero-platform-title {
@@ -99,8 +101,7 @@ body{
     font-size: 20px;
     font-weight: 400;
     line-height: normal;
-    margin-top: 130px;
-    margin-left: 105px;
+    margin: 130px 158px 0 105px
 }
 
 .hero-container-img {
