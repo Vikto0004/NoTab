@@ -93,6 +93,17 @@ body{
     margin: 0;
 }
 
+.hero-line{
+    width: 140px; /* Довжина лінії */
+    height: 4px; /* Товщина лінії */
+    background-color: rgb(255, 255, 255); /* Колір лінії */
+    transform: rotate(120deg);
+    position: absolute;
+    top: 570px;
+    left:93px;
+    background-image: url(./images/fon2.svg);
+}
+
 .hero-platform-text {
     color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
