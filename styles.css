@@ -335,12 +335,50 @@ width: 400px;
 .scaner-text {
     color: #FFF;
 font-feature-settings: 'clig' off, 'liga' off;
-
-/* 1 */
 font-family: Noto Sans;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 width: 316px;
+}
+
+   /*----INTEGRATION----*/
+
+.integration-container-title {
+    color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Montserrat;
+font-size: 51px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.integration-title {
+    color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Noto Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.integration-text {
+}
+
+.integration-container-svg {
+}
+
+.integration-list {
+}
+
+.integration-item {
+}
+
+.integration-item-container {
+}
+
+.integration-item-img {
 }
