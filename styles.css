@@ -363,14 +363,14 @@ width: 316px;
 
 .integration-container-elipse{
     width: 426.208px;
-height: 438.354px;
-transform: rotate(5.779deg);
-flex-shrink: 0;
-opacity: 0.1;
-background: linear-gradient(12deg, #F101BF 100%, #06F 97.06%);
-filter: blur(125px);
-position: absolute;
-top: 3708px;
+    height: 438.354px;
+    transform: rotate(5.779deg);
+    flex-shrink: 0;
+    opacity: 0.1;
+    background: linear-gradient(12deg, #F101BF 100%, #06F 97.06%);
+    filter: blur(125px);
+    position: absolute;
+    top: 3708px;
 }
 
 .integration-title {
@@ -387,15 +387,15 @@ top: 3708px;
 
 .integration-text {
     color: #FFF;
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: Noto Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 395px;
-height: 119px;
-margin-top: 23px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 395px;
+    height: 119px;
+    margin-top: 23px;
 }
 
 .integration-container-svg {
@@ -446,6 +446,12 @@ margin-top: 23px;
     padding: 30px 32px;
 }
 
+.integration-container-img-5-1{
+    position: absolute;
+  top: 94.9px;
+  left: 97.33px;
+}
+
 .integration-container-img-6{
     position: absolute;
     top: 293px;
@@ -456,4 +462,51 @@ margin-top: 23px;
     position: absolute;
     top: 465px;
     left: 422px;
+    display: flex;
+    gap: 20px;
+}
+
+.integration-container-percentages{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.integration-percentages-img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container-percentages-tex{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.integration-percentages-data{
+    color: #F5F7F6;
+    font-family: Roboto;
+    font-size: 6.308px;
+    font-weight: 400;
+    line-height: normal;
+    width: 25.006px;
+    height: 7.956px;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.integration-percentages-text{
+    color: #F5F7F6;
+    font-family: Roboto;
+    font-size: 13.381px;
+    font-weight: 400;
+    line-height: normal;
+    width: 25.006px;
+    height: 15.913px;
+    flex-shrink: 0;
+    margin: 0;
 }
