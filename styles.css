@@ -359,7 +359,18 @@ width: 316px;
 
 .integration-container-title {
     margin-top: 89px;
-    
+}
+
+.integration-container-elipse{
+    width: 426.208px;
+height: 438.354px;
+transform: rotate(5.779deg);
+flex-shrink: 0;
+opacity: 0.1;
+background: linear-gradient(12deg, #F101BF 100%, #06F 97.06%);
+filter: blur(125px);
+position: absolute;
+top: 3708px;
 }
 
 .integration-title {
@@ -390,6 +401,7 @@ margin-top: 23px;
 .integration-container-svg {
     position: relative;
     width: 740px;
+    height: auto;
 }
 
 .integration-container-defoult{
@@ -413,9 +425,35 @@ margin-top: 23px;
     left: 132px;
 }
 
+.integration-container-img-3{
+    position: absolute;
+    top: 392px;
+    left: 181.68px;
+    padding: 28px 20px;
+}
+
 .integration-container-img-4{
     position: absolute;
     top: 0;
     left: 312px;
     padding: 24px;
+}
+
+.integration-container-img-5{
+    position: absolute;
+    top: 182px;
+    left: 436px;
+    padding: 30px 32px;
+}
+
+.integration-container-img-6{
+    position: absolute;
+    top: 293px;
+    left: 255px;
+}
+
+.integration-container-img-7{
+    position: absolute;
+    top: 465px;
+    left: 422px;
 }
